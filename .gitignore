@@ -1,0 +1,37 @@
+# Ignorar archivos temporales de Unreal Engine
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+.vscode/
+
+# Ignorar archivos de Visual Studio
+.vs/
+*.VC.db
+*.VC.opendb
+*.sln
+*.suo
+*.user
+*.userosscache
+*.sdf
+*.opensdf
+*.cache
+*.log
+
+# Ignorar temporales de compilación
+*.pdb
+*.obj
+*.tmp
+*.bak
+*.exe
+*.dll
+
+# Otros
+*.aps
+*.ncb
+*.opendb
+*.ipch
+*.tlog
+*.lastbuildstate
+*.idb
+*.sbr
