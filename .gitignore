@@ -1,7 +1,13 @@
 # Ignorar archivos temporales de Unreal Engine
 Binaries/
 DerivedDataCache/
-Intermediate/
+Intermediate/Build
+Intermediate/Config
+Intermediate/PipInstall
+Intermediate/ReimportCache
+Intermediate/ShaderAutogen
+Intermediate/CachedAssetRegistry_0.bin
+Intermediate/TargetInfo.json
 Saved/
 .vscode/
 
