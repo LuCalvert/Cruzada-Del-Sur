@@ -3,7 +3,7 @@
 #include <string>
 
 enum class ETipoCarta {
-    Tropas,
+    Tropa,
     Reabastecimiento,
     Especial
 };
@@ -12,20 +12,18 @@ class Carta {
 protected:
     std::string Nombre;
     ETipoCarta Tipo;
-    int CostoEnergiaMov;
-	int CostoEnergiaAtaque;
+    int id;
     int CostoEnergiaUso;
 
 public:
-    Carta(std::string nombre, ETipoCarta tipo, int costoEnergiaMov, int costoEnergiaAtaque, int costoEnergiaUso);
+    Carta(std::string nombre, ETipoCarta tipo, int costoEnergiaUso, int id);
     virtual ~Carta() = default;
 
     std::string GetNombre() const;
     ETipoCarta GetTipo() const;
-    int GetCostoMov() const;
-	int GetCostoAtaque() const;
 	int GetCostoUso() const;
-
-    virtual void AplicarEfecto(); // Podés hacer esto puro (virtual = 0) más adelante
+    int getId() const;
+    
+    virtual void MostrarEstado() = 0;
 	
 };

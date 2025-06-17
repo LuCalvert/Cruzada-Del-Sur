@@ -250,10 +250,17 @@
   </PropertyGroup>
   <ItemGroup>
     <ClCompile Include="Carta.cpp" />
+    <ClCompile Include="CartaReabastecimiento.cpp" />
+    <ClCompile Include="CartaTropa.cpp" />
     <ClCompile Include="Jugador.cpp" />
+    <ClCompile Include="LectorCartas.cpp" />
     <ClCompile Include="Mapa.cpp" />
+    <ClInclude Include="C:\Users\Lu\Downloads\json.hpp" />
     <ClInclude Include="Carta.h" />
+    <ClInclude Include="CartaReabastecimiento.h" />
+    <ClInclude Include="CartaTropa.h" />
     <ClInclude Include="Jugador.h" />
+    <ClInclude Include="LectorCartas.h" />
     <ClInclude Include="Mapa.h" />
     <None Include="..\..\CruzadaDelSur.uproject" />
     <None Include="..\..\Source\CruzadaDelSur.Target.cs" />

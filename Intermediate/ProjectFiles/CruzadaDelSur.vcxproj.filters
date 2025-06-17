@@ -55,6 +55,18 @@
     <Filter Include="Source\CruzadaDelSur\backend\Campo de batalla">
       <UniqueIdentifier>{6c1a9d4f-44a1-4c94-8582-6fc5e0f2ca38}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source\CruzadaDelSur\backend\Cartas\Tropas">
+      <UniqueIdentifier>{65856c28-3af4-41c4-a235-67ead9e0f685}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\CruzadaDelSur\backend\Cartas\Reabastecimiento">
+      <UniqueIdentifier>{f8296656-e809-4f2f-aa6c-e2327a216b55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\CruzadaDelSur\ThirdParty">
+      <UniqueIdentifier>{a1c28e6f-57e9-4eba-b236-a2631c3d63e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\CruzadaDelSur\ThirdParty\json">
+      <UniqueIdentifier>{a3b17361-9010-4246-aaa1-8f2632ab5768}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Carta.cpp">
@@ -66,6 +78,15 @@
     <ClCompile Include="Mapa.cpp">
       <Filter>Source\CruzadaDelSur\backend\Mapa</Filter>
     </ClCompile>
+    <ClCompile Include="CartaTropa.cpp">
+      <Filter>Source\CruzadaDelSur\backend\Cartas\Tropas</Filter>
+    </ClCompile>
+    <ClCompile Include="CartaReabastecimiento.cpp">
+      <Filter>Source\CruzadaDelSur\backend\Cartas\Reabastecimiento</Filter>
+    </ClCompile>
+    <ClCompile Include="LectorCartas.cpp">
+      <Filter>Source\CruzadaDelSur\backend\Cartas</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Carta.h">
@@ -76,6 +97,18 @@
     </ClInclude>
     <ClInclude Include="Mapa.h">
       <Filter>Source\CruzadaDelSur\backend\Mapa</Filter>
+    </ClInclude>
+    <ClInclude Include="CartaTropa.h">
+      <Filter>Source\CruzadaDelSur\backend\Cartas\Tropas</Filter>
+    </ClInclude>
+    <ClInclude Include="CartaReabastecimiento.h">
+      <Filter>Source\CruzadaDelSur\backend\Cartas\Reabastecimiento</Filter>
+    </ClInclude>
+    <ClInclude Include="LectorCartas.h">
+      <Filter>Source\CruzadaDelSur\backend\Cartas</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Lu\Downloads\json.hpp">
+      <Filter>Source\CruzadaDelSur\ThirdParty\json</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

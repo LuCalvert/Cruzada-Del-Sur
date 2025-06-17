@@ -11,23 +11,29 @@ private:
     int Energia;
     int EnergiaMax;
 
-    std::vector<Carta*> Mazo;
-    std::vector<Carta*> Mano;
-    std::vector<Carta*> Descarte;
+    std::vector<std::shared_ptr<Carta>> Mazo;
+    std::vector<std::shared_ptr<Carta>> Mano;
+    std::vector<std::shared_ptr<Carta>> Descarte;
 
 public:
     Jugador(std::string nombre);
 
     void RobarCarta();
-    void JugarCarta(int indice); // por ahora sin mapa
+    void JugarCarta(int indice);
     void RecibirDanio(int cantidad);
+    void UsarEnergia(int cantidad);
     void RegenerarEnergia(int cantidad);
 
     void PasarTurno();
     void PasarBatalla();
 
+    void AgregarCartaAMazo(std::shared_ptr<Carta> carta);
+
     bool EstaVivo() const;
     std::string GetNombre() const;
+	int GetVida() const;
+	int GetEnergia() const;
+    std::shared_ptr<Carta> GetCarta(int indice) const;
 
     void MostrarEstado() const;
 };

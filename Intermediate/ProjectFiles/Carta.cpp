@@ -1,15 +1,11 @@
 #include "Carta.h"
 
-Carta::Carta(std::string nombre, ETipoCarta tipo, int costoEnergiaMov, int costoEnergiaAtaque, int costoEnergiaUso)
-    : Nombre(nombre), Tipo(tipo), CostoEnergiaMov(costoEnergiaMov), CostoEnergiaAtaque(costoEnergiaAtaque), CostoEnergiaUso(costoEnergiaUso) {
+Carta::Carta(std::string nombre, ETipoCarta tipo, int costoEnergiaUso, int id)
+    : Nombre(nombre), Tipo(tipo), id(id), CostoEnergiaUso(costoEnergiaUso) {
 }
 
 std::string Carta::GetNombre() const { return Nombre; }
 ETipoCarta Carta::GetTipo() const { return Tipo; }
-int Carta::GetCostoMov() const { return CostoEnergiaMov; }
-int Carta::GetCostoAtaque() const { return CostoEnergiaAtaque; }
 int Carta::GetCostoUso() const { return CostoEnergiaUso; }
+int Carta::getId() const { return id; }
 
-void Carta::AplicarEfecto() {
-    // Implementación genérica (o vacía)
-}
