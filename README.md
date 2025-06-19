@@ -14,3 +14,5 @@ Para salir:
 **Atencion**: si el programa rompe o no funciona como deberia, **no lo cierren**, primero saquen screen y me la mandan asi veo los ultimos pasos y puedo recrear el problema.
 
 
+(En estas semana solucionare mis problemas personales con unreal y todo esto va a tener una estructura decente)
+
