@@ -24,7 +24,9 @@ Saved/
 *.cache
 *.log
 
-# Ignorar temporales de compilación
+# Ignorar temporales de compilaciï¿½n
+cruzada_del_sur
+*.o
 *.pdb
 *.obj
 *.tmp

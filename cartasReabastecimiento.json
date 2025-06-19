@@ -1,0 +1,26 @@
+[
+    {
+        "tipo": "Reabastecimiento",
+        "tipoReabastecimiento": "municiones",
+        "nombre": "Reabastecimiento de Municiones",
+        "costo": 2,
+        "reabastecimiento": 3,
+        "cantidadEnMazo": 3
+    },
+    {
+        "tipo": "Reabastecimiento",
+        "tipoReabastecimiento": "energia",
+        "nombre": "Reabastecimiento de Energia",
+        "costo": 0,
+        "reabastecimiento": 3,
+        "cantidadEnMazo": 3
+    },
+    {
+        "tipo": "Reabastecimiento",
+        "tipoReabastecimiento": "vida",
+        "nombre": "Reabastecimiento de Vida",
+        "costo": 2,
+        "reabastecimiento": 3,
+        "cantidadEnMazo": 2
+    }
+]
