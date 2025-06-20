@@ -115,7 +115,6 @@ void Mapa::EliminarCarta(std::string jugador, int fila, int columna) {
 		if (verificacionCarta(*it, cartaId, fila, columna)) {
 			cartas.erase(it); // Elimina la carta del vector
 			tablero[fila][columna] = 0; // Limpia la posicion del tablero
-			std::cout << "Carta eliminada: " << it->first->GetNombre() << "\n";
 			return;
 		}
 	}
